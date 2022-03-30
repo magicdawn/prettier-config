@@ -31,8 +31,8 @@ module.exports = {
 
   // true - Example: { foo: bar }.
   // false - Example: {foo: bar}.
-  // default true
-  bracketSpacing: false,
+  // default true, use default
+  // bracketSpacing: true,
 
   // default false
   // jsxBracketSameLine: false,
