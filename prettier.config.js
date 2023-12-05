@@ -1,5 +1,5 @@
 /**
- * 2019-06-27
+ * 2023-12-05
  */
 
 module.exports = {
@@ -24,10 +24,9 @@ module.exports = {
   // use single even in jsx
   jsxSingleQuote: true,
 
-  // "none" - No trailing commas. default
   // "es5" - Trailing commas where valid in ES5 (objects, arrays, etc.)
   // "all" - Trailing commas wherever possible (including function arguments).
-  trailingComma: 'es5',
+  // Default value changed from es5 to all in v3.0.0
 
   // true - Example: { foo: bar }.
   // false - Example: {foo: bar}.
@@ -45,5 +44,6 @@ module.exports = {
   // "lf" – Line Feed only (\n), common on Linux and macOS as well as inside git repos
   // "crlf" - Carriage Return + Line Feed characters (\r\n), common on Windows
   // "cr" - Carriage Return character only (\r), used very rarely
-  endOfLine: 'lf',
+  // default value changed from auto to lf in v2.0.0
+  // endOfLine: 'lf',
 }

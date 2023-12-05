@@ -9,7 +9,7 @@
 ## Install
 
 ```sh
-$ cnpm i -D @magicdawn/prettier-config
+$ pnpm add -D @magicdawn/prettier-config
 ```
 
 ## Usage
@@ -22,11 +22,21 @@ $ cnpm i -D @magicdawn/prettier-config
 }
 ```
 
-### `prettier.config.js`
+### `prettier.config.cjs`
 
 ```js
 module.exports = {
   ...require('@magicdawn/prettier-config'),
+}
+```
+
+### `prettier.config.js` with `type=module`
+
+```js
+import defaultConfig from '@magicdawn/prettier-config'
+
+export default {
+  ...defaultConfig,
 }
 ```
 
