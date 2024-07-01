@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.0.4 2024-07-01
+
+- add `--organize-imports` argv & `PRETTIER_ORGANIZE_IMPORTS` env support
+
 ## v0.0.3 2023-12-05
 
 - `trailingComma` & `endOfLine` 使用 prettier 默认值 (`all` & `lf`)
