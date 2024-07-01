@@ -1,6 +1,10 @@
 /**
  * 2023-12-05
+ * 2024-07-01 add --organize-imports option
  */
+
+const useOrganizeImports =
+  process.argv.includes('--organize-imports') || !!process.env.PRETTIER_ORGANIZE_IMPORTS
 
 module.exports = {
   // default 80
@@ -46,4 +50,6 @@ module.exports = {
   // "cr" - Carriage Return character only (\r), used very rarely
   // default value changed from auto to lf in v2.0.0
   // endOfLine: 'lf',
+
+  plugins: [useOrganizeImports && 'prettier-plugin-organize-imports'].filter(Boolean),
 }
