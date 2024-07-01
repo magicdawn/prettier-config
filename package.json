@@ -1,6 +1,6 @@
 {
   "name": "@magicdawn/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "@magicdawn/prettier-config",
   "main": "prettier.config.js",
   "files": [
