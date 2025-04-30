@@ -1,6 +1,7 @@
 /**
  * 2023-12-05
  * 2024-07-01 add --organize-imports option
+ * 2025-04-30 change printWidth to 120
  */
 
 const useOrganizeImports =
@@ -8,7 +9,7 @@ const useOrganizeImports =
 
 module.exports = {
   // default 80
-  printWidth: 100,
+  printWidth: 120,
 
   // tab
   tabWidth: 2,
